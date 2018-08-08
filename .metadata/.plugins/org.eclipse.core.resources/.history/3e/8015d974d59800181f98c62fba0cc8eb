@@ -1,0 +1,12 @@
+package com.madhav.productcatalogapi.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+
+import com.madhav.productcatalogapi.productmodel.Product;
+
+public interface ProductRepository extends CrudRepository<Product, Long> {
+
+	List<Product> getProductById(Long productId);
+	
+}

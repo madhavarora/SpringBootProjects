@@ -1,0 +1,5 @@
+package com.madhav.productcatalogapi.productmodel;
+
+public class Product {
+
+}

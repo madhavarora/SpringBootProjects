@@ -1,0 +1,13 @@
+package com.madhav.productcatalogapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+
+public class ProductCatlogApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProductCatlogApiApplication.class, args);
+	}
+}

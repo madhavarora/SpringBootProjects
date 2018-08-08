@@ -1,0 +1,5 @@
+package com.madhav.springsecurity;
+
+public class WebSecurityConfig {
+
+}
